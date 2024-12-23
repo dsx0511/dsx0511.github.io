@@ -1,34 +1,43 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"gall":
+  - firstname: ["Juergen", "J{\"u}rgen"]
+    url: http://gall.cv-uni-bonn.de
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"li":
+  - firstname: ["Peizheng"]
+    url: https://edwardleelpz.github.io
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"hanselmann":
+  - firstname: ["Niklas"]
+    url: https://lasnik.github.io
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"cordts":
+  - firstname: ["Marius"]
+    url: https://scholar.google.com/citations?user=RM0ik8wAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"rehder":
+  - firstname: ["Eike"]
+    url: https://scholar.google.com/citations?user=SRv4qP8AAAAJ&hl=en
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"schneider":
+  - firstname: ["Lukas"]
+    url: https://scholar.google.com/citations?user=Vbk-QckAAAAJ&hl=en
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"chen":
+  - firstname: ["Xieyuanli"]
+    url: https://www.xieyuanli-chen.com/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"tan":
+  - firstname: ["Andong"]
+    url: https://scholar.google.com/citations?user=zt49vSoAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"wirges":
+  - firstname: ["Sascha"]
+    url: https://wsascha.github.io
+
+"stiller":
+  - firstname: ["Christoph"]
+    url: https://www.mrt.kit.edu/english/mitarbeiter_stiller.php
+
+"tombari":
+  - firstname: ["Federico"]
+    url: https://federicotombari.github.io
