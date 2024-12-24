@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 登东皋以舒啸，临清流而赋诗 —— 陶渊明
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm Shuxiao Ding (Name in Chinese: 丁舒啸), a PhD student in the Team Scene Understanding at [Mercedes-Benz Group AG](https://www.mercedes-benz.com/en/). as well as in the Computer Vision Group, [Department of Information Systems and Artificial Intelligence](https://www.iai.uni-bonn.de) of the [University of Bonn](https://www.uni-bonn.de/en/home), where I am supervised by [Prof. Dr. Juergen Gall](http://gall.cv-uni-bonn.de). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I was a Master and Bachelor student at the [Karlsruhe Institute of Technology](https://www.kit.edu/english/), where I completed both of my theses at the [Department of Measurement and Control](https://www.mrt.kit.edu/english/index.php), supervised by [Prof. Dr.-Ing. Christoph Stiller](https://www.mrt.kit.edu/english/mitarbeiter_stiller.php).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in Machine Learning, Computer Vision and Autonomous Driving. In particular, my research focuses on solving various problems in the end-to-end autonomous driving system using Graph Neural Networks, such as Multi-Object Tracking.
+

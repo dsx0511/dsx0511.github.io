@@ -14,7 +14,8 @@
   abstract={Many query-based approaches for 3D Multi-Object Tracking (MOT) adopt the tracking-by-attention paradigm, utilizing track queries for identity-consistent detection and object queries for identity-agnostic track spawning. Tracking-by-attention, however, entangles detection and tracking queries in one embedding for both the detection and tracking task, which is sub-optimal. Other approaches resemble the tracking-by-detection paradigm, detecting objects using decoupled track and detection queries followed by a subsequent association. These methods, however, do not leverage synergies between the detection and association task. Combining the strengths of both paradigms, we introduce ADA-Track, a novel end-to-endframeworkfor 3D MOT from multi-view cameras. We introduce a learnable data association module based on edge-augmented cross-attention, leveraging appearance and geometric features. Furthermore, we integrate this association module into the decoder layer of a DETR-based 3D detector, enabling simultaneous DETR-like query-to-image cross-attention for detection and query-to-query cross-attention for data association. By stacking these decoder layers, queries are refined for the detection and association task alternately, effectively harnessing the task dependencies. We evaluate our method on the nuScenes dataset and demonstrate the advantage of our approach compared to the two previous paradigms. Code is available at https://github.com/dsx0511/ADA-Track.},
   website={https://github.com/dsx0511/ADA-Track},
   poster={https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/30618.png?t=1716981006.784489},
-  video={https://youtu.be/vYm16mHXrjU}
+  video={https://youtu.be/vYm16mHXrjU},
+  selected={true}
 }
 
 
@@ -26,6 +27,7 @@
   pages={9750-9760},
   abbr={ICCV},
   website={https://github.com/dsx0511/3DMOTFormer},
+  selected={true},
   abstract = {Tracking 3D objects accurately and consistently is crucial for autonomous vehicles, enabling more reliable downstream tasks such as trajectory prediction and motion planning. Based on the substantial progress in object detection in recent years, the tracking-by-detection paradigm has become a popular choice due to its simplicity and efficiency. State-of-the-art 3D multi-object tracking (MOT) approaches typically rely on non-learned model-based algorithms such as Kalman Filter but require many manually tuned parameters. On the other hand, learning-based approaches face the problem of adapting the training to the online setting, leading to inevitable distribution mismatch between training and inference as well as suboptimal performance. In this work, we propose 3DMOTFormer, a learned geometry-based 3D MOT framework building upon the transformer architecture. We use an Edge-Augmented Graph Transformer to reason on the track-detection bipartite graph frame-by-frame and conduct data association via edge classification. To reduce the distribution mismatch between training and inference, we propose a novel online training strategy with an autoregressive and recurrent forward pass as well as sequential batch optimization. Using CenterPoint detections, our approach achieves 71.2% and 68.2% AMOTA on the nuScenes validation and test split, respectively. In addition, a trained 3DMOTFormer model generalizes well across different object detectors. Code is available at: https://github.com/dsx0511/3DMOTFormer.}
 }
 
@@ -42,7 +44,8 @@
   doi       = {10.24963/ijcai.2023/120},
   url       = {https://doi.org/10.24963/ijcai.2023/120},
   website   = {https://github.com/EdwardLeeLPZ/PowerBEV},
-  abbr      = {IJCAI}
+  abbr      = {IJCAI},
+  selected  = {true}
 }
 
 @InProceedings{10.1007/978-3-031-25063-7_8,
@@ -86,7 +89,8 @@ address="Cham",
 pages="375--389",
 abstract="Non-Maximum Suppression (NMS) is widely used to remove duplicates in object detection. In strong disagreement with the deep learning paradigm, NMS often remains as the only heuristic step. Learning NMS methods have been proposed that are either designed for Faster-RCNN or rely on separate networks. In contrast, learning NMS for SSD models is not well investigated. In this paper, we show that even a very simple rescoring network can be trained end-to-end with an underlying SSD model to solve the duplicate removal problem efficiently. For this, detection scores and boxes are refined from image features by modeling relations between detections in a Graph Neural Network (GNN). Our approach is applicable to the large number of object proposals in SSD using a pre-filtering head. It can easily be employed in arbitrary SSD-like models with weight-shared box predictor. Experiments on MS-COCO and KITTI show that our method improves accuracy compared with other duplicate removal methods at significantly lower inference time.",
 isbn="978-3-031-16788-1",
-abbr={GCPR}
+abbr={GCPR},
+selected={true}
 }
 
 
