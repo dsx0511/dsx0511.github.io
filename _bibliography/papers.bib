@@ -1,6 +1,15 @@
 ---
 ---
 
+@article{ding2024ada,
+  title={ADA-Track++: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association},
+  author={Ding, Shuxiao and Schneider, Lukas and Cordts, Marius and Gall, Juergen},
+  journal={arXiv preprint arXiv:2405.08909},
+  year={2024},
+  abbr={arXiv},
+  pdf={https://arxiv.org/pdf/2405.08909.pdf},
+  selected={true}
+}
 
 @INPROCEEDINGS{10656499,
   author={Ding, Shuxiao and Schneider, Lukas and Cordts, Marius and Gall, Juergen},
@@ -15,7 +24,8 @@
   website={https://github.com/dsx0511/ADA-Track},
   poster={https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/30618.png?t=1716981006.784489},
   video={https://youtu.be/vYm16mHXrjU},
-  selected={true}
+  selected={true},
+  pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Ding_ADA-Track_End-to-End_Multi-Camera_3D_Multi-Object_Tracking_with_Alternating_Detection_and_CVPR_2024_paper.pdf}
 }
 
 
@@ -28,6 +38,7 @@
   abbr={ICCV},
   website={https://github.com/dsx0511/3DMOTFormer},
   selected={true},
+  pdf={https://openaccess.thecvf.com/content/ICCV2023/papers/Ding_3DMOTFormer_Graph_Transformer_for_Online_3D_Multi-Object_Tracking_ICCV_2023_paper.pdf},
   abstract = {Tracking 3D objects accurately and consistently is crucial for autonomous vehicles, enabling more reliable downstream tasks such as trajectory prediction and motion planning. Based on the substantial progress in object detection in recent years, the tracking-by-detection paradigm has become a popular choice due to its simplicity and efficiency. State-of-the-art 3D multi-object tracking (MOT) approaches typically rely on non-learned model-based algorithms such as Kalman Filter but require many manually tuned parameters. On the other hand, learning-based approaches face the problem of adapting the training to the online setting, leading to inevitable distribution mismatch between training and inference as well as suboptimal performance. In this work, we propose 3DMOTFormer, a learned geometry-based 3D MOT framework building upon the transformer architecture. We use an Edge-Augmented Graph Transformer to reason on the track-detection bipartite graph frame-by-frame and conduct data association via edge classification. To reduce the distribution mismatch between training and inference, we propose a novel online training strategy with an autoregressive and recurrent forward pass as well as sequential batch optimization. Using CenterPoint detections, our approach achieves 71.2% and 68.2% AMOTA on the nuScenes validation and test split, respectively. In addition, a trained 3DMOTFormer model generalizes well across different object detectors. Code is available at: https://github.com/dsx0511/3DMOTFormer.}
 }
 
@@ -44,6 +55,7 @@
   doi       = {10.24963/ijcai.2023/120},
   url       = {https://doi.org/10.24963/ijcai.2023/120},
   website   = {https://github.com/EdwardLeeLPZ/PowerBEV},
+  pdf       = {https://www.ijcai.org/proceedings/2023/0120.pdf},
   abbr      = {IJCAI},
   selected  = {true}
 }
@@ -90,7 +102,8 @@ pages="375--389",
 abstract="Non-Maximum Suppression (NMS) is widely used to remove duplicates in object detection. In strong disagreement with the deep learning paradigm, NMS often remains as the only heuristic step. Learning NMS methods have been proposed that are either designed for Faster-RCNN or rely on separate networks. In contrast, learning NMS for SSD models is not well investigated. In this paper, we show that even a very simple rescoring network can be trained end-to-end with an underlying SSD model to solve the duplicate removal problem efficiently. For this, detection scores and boxes are refined from image features by modeling relations between detections in a Graph Neural Network (GNN). Our approach is applicable to the large number of object proposals in SSD using a pre-filtering head. It can easily be employed in arbitrary SSD-like models with weight-shared box predictor. Experiments on MS-COCO and KITTI show that our method improves accuracy compared with other duplicate removal methods at significantly lower inference time.",
 isbn="978-3-031-16788-1",
 abbr={GCPR},
-selected={true}
+selected={true},
+pdf={https://pages.iai.uni-bonn.de/gall_juergen/download/nonmaximumsuppression_gcpr22.pdf}
 }
 
 
@@ -100,5 +113,6 @@ selected={true}
   journal={IEEE Intelligent Vehicles Symposium (IV)},
   year={2020},
   pages={939-944},
-  abbr={IV}
+  abbr={IV},
+  pdf={https://arxiv.org/pdf/2002.00667}
 }

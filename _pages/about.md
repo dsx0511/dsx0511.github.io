@@ -6,7 +6,7 @@ subtitle: 登东皋以舒啸，临清流而赋诗 —— 陶渊明
 
 profile:
   align: right
-  image: 
+  image: pic.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
