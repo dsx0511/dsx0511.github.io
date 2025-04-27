@@ -55,12 +55,22 @@
   ],
   "work": [
     {
+      "position": "Picsart Inc.",
+      "name": "Senior Machine Learning Scientist",
+      "location": "Berlin, Germany",
+      "url": "https://picsart.com",
+      "startDate": "2025-07",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": ["I’m starting a new journey into generative AI with diffusion models. Stay tuned!"]
+    },
+    {
       "position": "Mercedes-Benz Group AG",
       "name": "Industrial Doctoral Researcher",
       "location": "Stuttgart, Germany",
       "url": "https://www.mercedes-benz.com/en/",
       "startDate": "2020-08",
-      "endDate": "Present",
+      "endDate": "2025-05",
       "summary": "",
       "highlights": ["Conducted diverse research initiatives within the realm of autonomous driving, exploring various innovative research topics such as learning Non-Maximum Suppression (NMS) with Graph Neural Networks, learning data association using Graph-Transformers for 3D Multi-Object Tracking (MOT), end-to-end multi-camera object detection and tracking, and end-to-end Bird's Eye View (BEV) future instance prediction.", "Engineered deployment infrastructures for training and evaluation processes on several cloud platforms, including Microsoft Azure, Google Cloud Platform and an in-house GPU cluster, ensuring scalable model deployment.", "Provided academic guidance and mentorship to graduate students, including supervision of one Bachelor's and three Master's Theses along with their associated pre-thesis internships.", "Published and presented research papers at premier Computer Vision and Artifical Intelligence conferences such as CVPR, ICCV and IJCAI, and contributed as reviewer at leading venues."]
     },
